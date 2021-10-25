@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Magic Snooker</title>
+    <script defer src="/app.js"></script>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="centered">
-    <h3>Snooker Ball</h3>
-    <p class="instruction">Ask me anything and I won't give you a maybe</p>
-    <input type="text" name="textbox" id="questions">
-
-    <div class="six-ball" id="six-ball">   
-        <div class="answers">
-            <p id="six"></p>
+    <div id="content">
+        <h1>Magic Snooker</h1>
+        <p id="info">A 6 Ball has only yes and no answers</p>
+        <input type="text" id="question" />
+        <div id="six-ball" class="six-ball">
+          <div class="answer">
+            <p id="six">6</p>
             <p id="answer"></p>
+          </div>
         </div>
-    </div>
-
-</div>
-
-
-
-
-    <!-- link to js -->
-    <script src="/app.js"></script>
+      </div>
 </body>
 </html>
