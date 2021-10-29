@@ -37,3 +37,4 @@ const answers = ["It is certain",
     };
 
     //use another array
+
