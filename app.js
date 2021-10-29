@@ -22,7 +22,6 @@ const answers = ["It is certain",
     window.onload = function() {
        const six = document.getElementById("six");
        const answer = document.getElementById("answer");
-       const colorAnswer = document.getElementById('color-answer');
        const sixball = document.getElementById("six-ball");
        const question = document.getElementById("question");
        
@@ -33,7 +32,6 @@ const answers = ["It is certain",
            six.innerText = "";
            const num = Math.floor(Math.random() * Math.floor(answers.length));
            answer.innerText = answers[num];
-           colorAnswer.style.backgroundColor = 'red';
          }
        });
     };
